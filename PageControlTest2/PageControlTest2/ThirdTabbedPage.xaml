@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PageControlTest2.ThirdTabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1" Padding="30">
+        <Label Text="桃ちゃんそこで外すー？" />
+    </ContentPage>
+    <ContentPage Title="Tab 2" Padding="30">
+        <Label Text="桃ちゃんと呼ぶな！" />
+    </ContentPage>
+    <ContentPage Title="Tab 3" Padding="30">
+        <Label Text="かーしまがんばれー" />
+    </ContentPage>
+</TabbedPage>

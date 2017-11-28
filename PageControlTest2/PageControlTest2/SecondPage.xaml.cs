@@ -15,6 +15,12 @@ namespace PageControlTest2
 		public SecondPage ()
 		{
 			InitializeComponent ();
+
+            btnNextTabPage.Clicked += (sender, e) =>
+            {
+                // namespaceを指定しないとiOSの方がうまくいかない？
+                this.Navigation.PushAsync(new PageControlTest2.ThirdTabbedPage());
+            };
 		}
 	}
 }
