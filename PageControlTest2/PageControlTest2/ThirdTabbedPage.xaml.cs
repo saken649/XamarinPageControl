@@ -15,6 +15,11 @@ namespace PageControlTest2
         public ThirdTabbedPage ()
         {
             InitializeComponent();
+
+            btnNextCarouselPage.Clicked += (sender, e) =>
+            {
+                this.Navigation.PushAsync(new PageControlTest2.FourthCarouselPage());
+            };
         }
     }
 }

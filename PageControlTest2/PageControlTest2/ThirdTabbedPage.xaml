@@ -10,6 +10,10 @@
         <Label Text="桃ちゃんと呼ぶな！" />
     </ContentPage>
     <ContentPage Title="Tab 3" Padding="30">
-        <Label Text="かーしまがんばれー" />
+        <!-- StackLayoutで囲んであげることで、2つとも表示出来た => それぞれ要素として積めた？StackLayoutをちゃんと調べること -->
+        <StackLayout Spacing="20" Padding="20" VerticalOptions="Center" Orientation="Vertical">
+            <Label Text="んじゃあかるーせるいってみよっかー"  VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button Text="Let's Carousel" x:Name="btnNextCarouselPage"/>
+        </StackLayout>
     </ContentPage>
 </TabbedPage>

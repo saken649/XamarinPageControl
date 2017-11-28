@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PageControlTest2.FourthCarouselPage">
+    <ContentPage Title="page1" Padding="10, 130, 10, 10">
+        <Label Text="＼どぅーちぇ！／"/>
+    </ContentPage>
+    <ContentPage Title="page2" Padding="10, 130, 10, 10">
+        <Label Text="＼どぅーちぇ！どぅーちぇ！／"/>
+    </ContentPage>
+    <ContentPage Title="page3" Padding="10, 130, 10, 10">
+        <Label Text="＼どぅーちぇ！どぅーちぇ！どぅーちぇ！どぅーちぇ！どぅーちぇ！／"/>
+    </ContentPage>
+</CarouselPage>
