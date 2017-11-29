@@ -14,7 +14,8 @@ namespace PageControlTest2
 			InitializeComponent();
 
             //MainPage = new PageControlTest2.MainPage();
-            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new PageControlTest2.Master();
         }
 
 		protected override void OnStart ()
